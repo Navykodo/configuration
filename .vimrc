@@ -6,3 +6,5 @@ set shiftwidth=4
 set expandtab
 " 自动缩进
 set autoindent
+" 如果编辑的是Makefile文件，键入真正的TAB键
+autocmd FileType make setlocal noexpandtab
